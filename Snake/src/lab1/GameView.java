@@ -100,7 +100,7 @@ public class GameView extends JComponent {
 			 */
 			g.setColor(Color.BLACK);
 			g.setFont(new Font("Sans", Font.BOLD, 14));
-			//punaje
+			
 			String scoreString = (this.model.getScore() == 1) ? "point" : "points";
 			g.drawString(this.model.getScore() + " " + scoreString, 10, 20);
 			
